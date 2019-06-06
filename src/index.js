@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Card from './Card';
-import CardList from './CardList';
+import App from './App';
 import 'tachyons';
 //robot is not default and has many items, need destruct it
 import {robots} from './robots';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <CardList robots={robots}/>, document.getElementById('root')
+    <App robots={robots}/>, document.getElementById('root')
 
 );
 
